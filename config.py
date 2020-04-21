@@ -1,13 +1,6 @@
-import logging
+# Path of all the dependenties
 
-log_filePath = r"logs/"
-logname = log_filePath + 'data_entry_excel_sheet_logs.log'
 
-logging.basicConfig(level=logging.INFO,
-                    # format='[%(asctime)s]: {} %(levelname)s %(message)s'.format(os.getpid()),
-                    format='%(asctime)s,%(msecs)d %(levelname)-5s [%(filename)s:%(lineno)d] %(message)s',
-                    datefmt='%Y-%m-%d %H:%M:%S',
-                    filemode='a+',
-                    filename=logname)
-
-logging = logging.getLogger(__name__)
+pdf_path = r"assets/2020_fiche_pay_ouvrieres.PDF"
+excel_path = r"assets/2020_fiche_pay_ouvrieres_full.xlsx"
+excel_format = r"assets/format/excel_format.xlsx"

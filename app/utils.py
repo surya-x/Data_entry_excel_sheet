@@ -14,7 +14,7 @@ from config import *
 
 
 def get_text_from_pdf(path):
-    logging.info("method 'get_text_from_pdf' called ")
+    # logging.info("method 'get_text_from_pdf' called ")
     data = []
     try:
 
@@ -22,6 +22,7 @@ def get_text_from_pdf(path):
         parser = PDFParser(fp)
         doc = PDFDocument(parser)
         max_pages = resolve1(doc.catalog['Pages'])['Count']
+        print("Max no. of pages in pdf: " + str(max_pages))
 
         for i in range(0, max_pages, 2):
             data.append(convert_pdf_to_txt(fp, i))
@@ -29,7 +30,7 @@ def get_text_from_pdf(path):
     except Exception as e:
         print("Error : Reading pages from pdf")
         print(e)
-        logging.error(e)
+        # logging.error(e)
         sys.exit()
     finally:
         fp.close()
@@ -37,7 +38,7 @@ def get_text_from_pdf(path):
 
 
 def convert_pdf_to_txt(fp, pageNumber):
-    logging.info("method 'convert_pdf_to_txt' called ")
+    # logging.info("method 'convert_pdf_to_txt' called ")
     try:
         rsrcmgr = PDFResourceManager()
         retstr = io.StringIO()
@@ -65,12 +66,12 @@ def convert_pdf_to_txt(fp, pageNumber):
     except Exception as e:
         print("Error : Converting pages from pdf")
         print(e)
-        logging.error(e)
+        # logging.error(e)
         sys.exit()
 
 
 def write_data(excel_path, excel_format, data):
-    logging.info("method write_data called ")
+    # logging.info("method write_data called ")
     try:
         workbook = openpyxl.load_workbook(excel_format)
         sheet = workbook.worksheets[0]
@@ -86,5 +87,5 @@ def write_data(excel_path, excel_format, data):
     except Exception as e:
         print("Error : Writing in full_pay.xlsx")
         print(e)
-        logging.error(e)
+        # logging.error(e)
         sys.exit()

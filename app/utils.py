@@ -11,21 +11,23 @@ import io
 import openpyxl
 import sys
 from config import *
+from tqdm import tqdm
 
 
 def get_text_from_pdf(path):
     # logging.info("method 'get_text_from_pdf' called ")
     data = []
     try:
-
         fp = open(path, 'rb')
         parser = PDFParser(fp)
         doc = PDFDocument(parser)
         max_pages = resolve1(doc.catalog['Pages'])['Count']
         print("Max no. of pages in pdf: " + str(max_pages))
 
-        for i in range(0, max_pages, 2):
+        for i in tqdm(range(0, max_pages, 2)):
+            # print("Working on page: " + str(i+1))
             data.append(convert_pdf_to_txt(fp, i))
+
 
     except Exception as e:
         print("Error : Reading pages from pdf")
@@ -44,7 +46,7 @@ def convert_pdf_to_txt(fp, pageNumber):
         retstr = io.StringIO()
         laparams = LAParams()
         device = TextConverter(
-            rsrcmgr, retstr, codec='utf-8', laparams=laparams)
+            rsrcmgr, retstr, laparams=laparams, codec = 'utf-8')
 
         interpreter = PDFPageInterpreter(rsrcmgr, device)
         password = ""

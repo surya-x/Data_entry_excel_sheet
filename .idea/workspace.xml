@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bdbe9db-37c8-431e-afa0-69699a899d4b" name="Default Changelist" comment="" />
+    <list default="true" id="1bdbe9db-37c8-431e-afa0-69699a899d4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Data entry Excel sheet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data entry Excel sheet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/2020_fiche_pay_ouvrieres.PDF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/full_pay.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/assets/full_pay.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/full_pay.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/full_pay.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,15 +45,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="c18c7ca5-7f67-4486-be56-38d33e355fcb" />
   <component name="ProjectId" id="1anQLnckdSn9NT0A84xTDcCBuQg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -38,6 +75,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -48,6 +86,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -58,45 +97,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587368825166</updated>
+      <workItem from="1604594166833" duration="3755000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="168" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587385315960">
-      <screen x="62" y="0" width="1304" height="768" />
+    <state x="165" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604594430202">
+      <screen x="36" y="0" width="1330" height="768" />
     </state>
-    <state x="168" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1304.768@62.0.1304.768" timestamp="1587385315960" />
-    <state x="154" y="92" width="1120" height="584" key="DiffContextDialog" timestamp="1587386012272">
-      <screen x="62" y="0" width="1304" height="768" />
+    <state x="165" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/36.0.1330.768@36.0.1330.768" timestamp="1604594430202" />
+    <state x="36" y="0" width="594" height="768" key="find.popup" timestamp="1604596547092">
+      <screen x="36" y="0" width="1330" height="768" />
     </state>
-    <state x="154" y="92" width="1120" height="584" key="DiffContextDialog/62.0.1304.768@62.0.1304.768" timestamp="1587386012272" />
-    <state x="444" y="86" key="FileChooserDialogImpl" timestamp="1587385313726">
-      <screen x="62" y="0" width="1304" height="768" />
-    </state>
-    <state x="444" y="86" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1587385313726" />
-    <state width="1277" height="178" key="GridCell.Tab.0.bottom" timestamp="1587388944400">
-      <screen x="62" y="0" width="1304" height="768" />
-    </state>
-    <state width="1277" height="178" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1587388944400" />
-    <state width="1277" height="178" key="GridCell.Tab.0.center" timestamp="1587388944400">
-      <screen x="62" y="0" width="1304" height="768" />
-    </state>
-    <state width="1277" height="178" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1587388944400" />
-    <state width="1277" height="178" key="GridCell.Tab.0.left" timestamp="1587388944400">
-      <screen x="62" y="0" width="1304" height="768" />
-    </state>
-    <state width="1277" height="178" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1587388944400" />
-    <state width="1277" height="178" key="GridCell.Tab.0.right" timestamp="1587388944400">
-      <screen x="62" y="0" width="1304" height="768" />
-    </state>
-    <state width="1277" height="178" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1587388944400" />
-    <state x="109" y="0" key="SettingsEditor" timestamp="1587368913348">
-      <screen x="62" y="0" width="1304" height="768" />
-    </state>
-    <state x="109" y="0" key="SettingsEditor/62.0.1304.768@62.0.1304.768" timestamp="1587368913348" />
-    <state x="360" y="171" key="com.intellij.ide.util.TipDialog" timestamp="1587384990585">
-      <screen x="62" y="0" width="1304" height="768" />
-    </state>
-    <state x="360" y="171" key="com.intellij.ide.util.TipDialog/62.0.1304.768@62.0.1304.768" timestamp="1587384990585" />
+    <state x="36" y="0" width="594" height="768" key="find.popup/36.0.1330.768@36.0.1330.768" timestamp="1604596547092" />
   </component>
 </project>

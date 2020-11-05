@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import sys
 from app.utils import *
 from config import *
@@ -15,11 +17,11 @@ try:
 
         row_data = []
 
-        if datum is not '':
+        if datum != '':
             try:
                 lines = datum.splitlines()
                 # TODO : remove this print line
-                print("line: " + str(i + 1))
+                # print("line: " + str(i + 1))
 
                 column_a = lines[12].split(" ")[2].split(".")
                 column_a = "/".join(column_a[1:])
@@ -111,7 +113,7 @@ try:
                 row_data.append(column_k)
                 row_data.append(column_l)
 
-                print("-----------------------")
+                # print("-----------------------")
 
                 # print(row_data)
                 all_data.append(row_data)
@@ -134,3 +136,5 @@ except Exception as e:
     sys.exit()
 
 print("\nTask Completed")
+
+

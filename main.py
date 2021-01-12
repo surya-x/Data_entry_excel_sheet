@@ -23,6 +23,7 @@ try:
                 lines = datum.splitlines()
                 # TODO : remove this print line
                 # print("line: " + str(i + 1))
+                # print(lines)
 
                 column_a = lines[12].split(" ")[2].split(".")
                 column_a = "/".join(column_a[1:])
@@ -98,8 +99,23 @@ try:
                         "\n")[-1].split(":")[0]
 
                 column_l = ''
+                if "werkloosheid overmacht" in datum.lower():
+                    column_l = datum.lower().split(
+                        "werkloosheid overmacht")[0].split("\n")[-1].split(" ")[0]
+
+                column_m = ''
+                if "uren vakantie" in datum.lower():
+                    column_m = datum.lower().split("vakantie")[
+                        0].split("\n")[-1].split(" ")[0]
+
+                column_n = ''
+                if "uren betaalde feestdag" in datum.lower():
+                    column_n = datum.lower().split("uren betaalde feestdag")[
+                        0].split("\n")[-1].split(" ")[0]
+
+                column_o = ''
                 if "EUR" in datum:
-                    column_l = datum.split("EUR")[-1].split("\n")[16]
+                    column_o = datum.split("EUR")[-1].split("\n")[16]
 
                 row_data.append(column_a)
                 row_data.append(column_b)
@@ -113,6 +129,9 @@ try:
                 row_data.append(column_j)
                 row_data.append(column_k)
                 row_data.append(column_l)
+                row_data.append(column_m)
+                row_data.append(column_n)
+                row_data.append(column_o)
 
                 # print("-----------------------")
 
@@ -138,5 +157,3 @@ except Exception as e:
     sys.exit()
 
 print("\nTask Completed")
-
-

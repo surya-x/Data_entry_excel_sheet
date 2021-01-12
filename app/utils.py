@@ -28,7 +28,6 @@ def get_text_from_pdf(path):
             # print("Working on page: " + str(i+1))
             data.append(convert_pdf_to_txt(fp, i))
 
-
     except Exception as e:
         print("Error : Reading pages from pdf")
         print(e)
@@ -46,7 +45,7 @@ def convert_pdf_to_txt(fp, pageNumber):
         retstr = io.StringIO()
         laparams = LAParams()
         device = TextConverter(
-            rsrcmgr, retstr, codec='utf-8', laparams=laparams )
+            rsrcmgr, retstr, codec='utf-8', laparams=laparams)
 
         interpreter = PDFPageInterpreter(rsrcmgr, device)
         password = ""
@@ -79,7 +78,8 @@ def write_data(excel_path, excel_format, data):
         sheet = workbook.worksheets[0]
 
         for index, each_row in enumerate(data):
-            for i, each_cell in zip(range(1, 13), each_row):
+            for i, each_cell in zip(range(1, 16), each_row):
+                # print(each_row, i, each_cell)
                 sheet.cell(row=index + 2, column=i).value = each_cell
 
         workbook.save(excel_path)

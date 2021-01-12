@@ -46,7 +46,7 @@ def convert_pdf_to_txt(fp, pageNumber):
         retstr = io.StringIO()
         laparams = LAParams()
         device = TextConverter(
-            rsrcmgr, retstr, laparams=laparams, codec = 'utf-8')
+            rsrcmgr, retstr, codec='utf-8', laparams=laparams )
 
         interpreter = PDFPageInterpreter(rsrcmgr, device)
         password = ""

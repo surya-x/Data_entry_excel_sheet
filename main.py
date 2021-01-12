@@ -9,6 +9,7 @@ data = []
 print("\nDecoding PDF unicode...\nThis will take few minutes")
 data = get_text_from_pdf(pdf_path)
 
+
 try:
     all_data = []
 
@@ -16,9 +17,9 @@ try:
         # logging.info("For index %d in list 'data' " % i)
 
         row_data = []
+        try:
+            if datum != '':
 
-        if datum != '':
-            try:
                 lines = datum.splitlines()
                 # TODO : remove this print line
                 # print("line: " + str(i + 1))
@@ -82,8 +83,8 @@ try:
                     0].split("/ ")[1]
 
                 column_i = ''
-                if "maaltijdcheques" in datum:
-                    column_i = datum.split("maaltijdcheques")[
+                if "maaltijdcheques" in datum.lower():
+                    column_i = datum.lower().split("maaltijdcheques")[
                         0].split("\n")[-1]
 
                 column_j = ''
@@ -120,18 +121,19 @@ try:
 
                 # TODO : remove this line
                 # print("writring done for row num " + str(i + 1))
-            except Exception as e:
-                print("Error : Format of the pdf is changed\nContact developer")
-                print(e)
-                # logging.error(e)
-                sys.exit()
+
+        except Exception as e:
+            print("Error0 : Format of the pdf is changed\nContact developer")
+            print(e)
+            # logging.error(e)
+            sys.exit()
 
     # print(all_data)
     write_data(excel_path, excel_format, all_data)
 
 
 except Exception as e:
-    print("Error : Format of the pdf is changed\nContact developer")
+    print("Error1 : Format of the pdf is changed\nContact developer")
     print(e)
     sys.exit()
 

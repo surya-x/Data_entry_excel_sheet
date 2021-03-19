@@ -20,17 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bdbe9db-37c8-431e-afa0-69699a899d4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Data entry Excel sheet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data entry Excel sheet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/2020_fiche_pay_ouvrieres.PDF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/full_pay.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/assets/full_pay.PDF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/full_pay.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/full_pay.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +63,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\chief_surya01\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="SDK_HOME" value="$USER_HOME$/miniforge3/envs/venvconda/bin/python3.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -97,7 +90,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587368825166</updated>
-      <workItem from="1604594166833" duration="3755000" />
+      <workItem from="1604594166833" duration="4334000" />
+      <workItem from="1616140892807" duration="4006000" />
     </task>
     <servers />
   </component>
@@ -114,15 +108,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="165" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604594430202">
-      <screen x="36" y="0" width="1330" height="768" />
-    </state>
-    <state x="165" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/36.0.1330.768@36.0.1330.768" timestamp="1604594430202" />
-    <state x="36" y="0" width="594" height="768" key="find.popup" timestamp="1604596547092">
-      <screen x="36" y="0" width="1330" height="768" />
-    </state>
-    <state x="36" y="0" width="594" height="768" key="find.popup/36.0.1330.768@36.0.1330.768" timestamp="1604596547092" />
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Data_entry_excel_sheet$main.coverage" NAME="main Coverage Results" MODIFIED="1616140964665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

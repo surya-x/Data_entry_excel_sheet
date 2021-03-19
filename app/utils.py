@@ -22,6 +22,7 @@ def get_text_from_pdf(path):
         parser = PDFParser(fp)
         doc = PDFDocument(parser)
         max_pages = resolve1(doc.catalog['Pages'])['Count']
+        # max_pages = 4
         print("Max no. of pages in pdf: " + str(max_pages))
 
         for i in tqdm(range(0, max_pages, 2)):
